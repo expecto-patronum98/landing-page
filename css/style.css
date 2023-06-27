@@ -154,10 +154,11 @@ a:active {
 
 .info-section {
     background-color: var(--neutral-color);
+    padding: 98px 0px;
 }
 
 .info-section .info-heading {
-    padding-top: 48px;
+    padding-bottom: 68px;
     text-align: center;
     color: var(--first-color);
     font-size: var(--big-font-size);
@@ -165,7 +166,6 @@ a:active {
 }
 
 .info-container {
-    padding: 48px 0px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -202,7 +202,7 @@ a:active {
 }
 
 .quote-section {
-    padding: 48px 168px;
+    padding: 98px 0px;
     background-color: var(--first-color);
     font-size: 1.25rem;
 }
