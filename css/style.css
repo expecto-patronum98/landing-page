@@ -31,8 +31,9 @@ img {
 
 /* ======== COLORS ======== */
 :root {
-    --first-color: hsl(212, 32%, 8%);
-    --second-color: hsl(347, 100%, 66%);
+    --first-color: hsl(212, 24%, 12%);
+    --second-color: hsl(211, 24%, 17%);
+    --bright-color: hsl(54, 76%, 56%);
     --neutral-color: #f9faf8;
     --body-font: 'Jost', Arial, sans-serif;
 
@@ -49,7 +50,7 @@ img {
 
 .header {
     background-color: var(--first-color);
-    color: var(--neutral-color);
+    color: var(--bright-color);
     height: 80px;
     display: flex;
     align-items: center;
@@ -119,21 +120,19 @@ a:active {
     font-size: 3rem;
 }
 
-.hero-text p {
-    
-}
 
 .hero-button {
     background-color: #f9faf8;
     color: #1F2937;
     margin-top: 1.5rem;
     padding: 12px 24px;
-    border: 0;
+    border: 2px solid transparent;
     border-radius: 6px;
 }
 
 .hero-button:hover {
-    background-color: var(--second-color);
+    background-color: var(--first-color);
+    border: #f9faf8 2px solid;
     color: var(--neutral-color);
     transition: .3s;
 }
